@@ -1,0 +1,1074 @@
+[
+   {
+   "PIH": {
+      "Name": "1347 Property Insurance Holdings, Inc.",
+      "LastSale": "7.1",
+      "MarketCap": "$42.49M",
+      "IPOyear": "2014",
+      "Sector": "Finance",
+      "industry": "Property-Casualty Insurers",
+      "Summary Quote": "https://www.nasdaq.com/symbol/pih",
+      "FIELD9": ""
+   },
+   "TURN": {
+      "Name": "180 Degree Capital Corp.",
+      "LastSale": "1.8",
+      "MarketCap": "$56.02M",
+      "IPOyear": "n/a",
+      "Sector": "Finance",
+      "industry": "Finance/Investors Services",
+      "Summary Quote": "https://www.nasdaq.com/symbol/turn",
+      "FIELD9": ""
+   },
+   "FLWS": {
+      "Name": "1-800 FLOWERS.COM, Inc.",
+      "LastSale": "10.85",
+      "MarketCap": "$700.23M",
+      "IPOyear": "1999",
+      "Sector": "Consumer Services",
+      "industry": "Other Specialty Stores",
+      "Summary Quote": "https://www.nasdaq.com/symbol/flws",
+      "FIELD9": ""
+   },
+   "FCCY": {
+      "Name": "1st Constitution Bancorp (NJ)",
+      "LastSale": "19.25",
+      "MarketCap": "$155.6M",
+      "IPOyear": "n/a",
+      "Sector": "Finance",
+      "industry": "Savings Institutions",
+      "Summary Quote": "https://www.nasdaq.com/symbol/fccy",
+      "FIELD9": ""
+   },
+   "SRCE": {
+      "Name": "1st Source Corporation",
+      "LastSale": "49.59",
+      "MarketCap": "$1.29B",
+      "IPOyear": "n/a",
+      "Sector": "Finance",
+      "industry": "Major Banks",
+      "Summary Quote": "https://www.nasdaq.com/symbol/srce",
+      "FIELD9": ""
+   },
+   "VNET": {
+      "Name": "21Vianet Group, Inc.",
+      "LastSale": "7.87",
+      "MarketCap": "$878.69M",
+      "IPOyear": "2011",
+      "Sector": "Technology",
+      "industry": "Computer Software: Programming, Data Processing",
+      "Summary Quote": "https://www.nasdaq.com/symbol/vnet",
+      "FIELD9": ""
+   },
+   "TWOU": {
+      "Name": "2U, Inc.",
+      "LastSale": "72.66",
+      "MarketCap": "$3.79B",
+      "IPOyear": "2014",
+      "Sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "Summary Quote": "https://www.nasdaq.com/symbol/twou",
+      "FIELD9": ""
+   },
+   "JOBS": {
+      "Name": "51job, Inc.",
+      "LastSale": "64.09",
+      "MarketCap": "$3.96B",
+      "IPOyear": "2004",
+      "Sector": "Technology",
+      "industry": "Diversified Commercial Services",
+      "Summary Quote": "https://www.nasdaq.com/symbol/jobs",
+      "FIELD9": ""
+   },
+   "CAFD": {
+      "Name": "8point3 Energy Partners LP",
+      "LastSale": "12.26",
+      "MarketCap": "$969.63M",
+      "IPOyear": "2015",
+      "Sector": "Public Utilities",
+      "industry": "Electric Utilities: Central",
+      "Summary Quote": "https://www.nasdaq.com/symbol/cafd",
+      "FIELD9": ""
+   },
+   "EGHT": {
+      "Name": "8x8 Inc",
+      "LastSale": "17.75",
+      "MarketCap": "$1.64B",
+      "IPOyear": "n/a",
+      "Sector": "Public Utilities",
+      "industry": "Telecommunications Equipment",
+      "Summary Quote": "https://www.nasdaq.com/symbol/eght",
+      "FIELD9": ""
+   },
+   "AVHI": {
+      "Name": "A V Homes, Inc.",
+      "LastSale": "15.75",
+      "MarketCap": "$353.68M",
+      "IPOyear": "n/a",
+      "Sector": "Capital Goods",
+      "industry": "Homebuilding",
+      "Summary Quote": "https://www.nasdaq.com/symbol/avhi",
+      "FIELD9": ""
+   },
+   "SHLM": {
+      "Name": "A. Schulman, Inc.",
+      "LastSale": "37.15",
+      "MarketCap": "$1.1B",
+      "IPOyear": "1972",
+      "Sector": "Basic Industries",
+      "industry": "Major Chemicals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/shlm",
+      "FIELD9": ""
+   },
+   "AAON": {
+      "Name": "AAON, Inc.",
+      "LastSale": "33.9",
+      "MarketCap": "$1.78B",
+      "IPOyear": "n/a",
+      "Sector": "Capital Goods",
+      "industry": "Industrial Machinery/Components",
+      "Summary Quote": "https://www.nasdaq.com/symbol/aaon",
+      "FIELD9": ""
+   },
+   "ABAX": {
+      "Name": "ABAXIS, Inc.",
+      "LastSale": "65.51",
+      "MarketCap": "$1.49B",
+      "IPOyear": "1992",
+      "Sector": "Capital Goods",
+      "industry": "Industrial Machinery/Components",
+      "Summary Quote": "https://www.nasdaq.com/symbol/abax",
+      "FIELD9": ""
+   },
+   "ABEO": {
+      "Name": "Abeona Therapeutics Inc.",
+      "LastSale": "11.9",
+      "MarketCap": "$556.63M",
+      "IPOyear": "n/a",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/abeo",
+      "FIELD9": ""
+   },
+   "ABEOW": {
+      "Name": "Abeona Therapeutics Inc.",
+      "LastSale": "7.2",
+      "MarketCap": "n/a",
+      "IPOyear": "n/a",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/abeow",
+      "FIELD9": ""
+   },
+   "ABIL": {
+      "Name": "Ability Inc.",
+      "LastSale": "0.381",
+      "MarketCap": "$9.81M",
+      "IPOyear": "2014",
+      "Sector": "Finance",
+      "industry": "Business Services",
+      "Summary Quote": "https://www.nasdaq.com/symbol/abil",
+      "FIELD9": ""
+   },
+   "ABMD": {
+      "Name": "ABIOMED, Inc.",
+      "LastSale": "233.99",
+      "MarketCap": "$10.36B",
+      "IPOyear": "n/a",
+      "Sector": "Health Care",
+      "industry": "Medical/Dental Instruments",
+      "Summary Quote": "https://www.nasdaq.com/symbol/abmd",
+      "FIELD9": ""
+   },
+   "ABLX": {
+      "Name": "Ablynx NV",
+      "LastSale": "53.99",
+      "MarketCap": "$4.05B",
+      "IPOyear": "2017",
+      "Sector": "Health Care",
+      "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+      "Summary Quote": "https://www.nasdaq.com/symbol/ablx",
+      "FIELD9": ""
+   },
+   "AXAS": {
+      "Name": "Abraxas Petroleum Corporation",
+      "LastSale": "2.13",
+      "MarketCap": "$353.35M",
+      "IPOyear": "n/a",
+      "Sector": "Energy",
+      "industry": "Oil & Gas Production",
+      "Summary Quote": "https://www.nasdaq.com/symbol/axas",
+      "FIELD9": ""
+   },
+   "ACIU": {
+      "Name": "AC Immune SA",
+      "LastSale": "11.5",
+      "MarketCap": "$654.61M",
+      "IPOyear": "2016",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/aciu",
+      "FIELD9": ""
+   },
+   "ACIA": {
+      "Name": "Acacia Communications, Inc.",
+      "LastSale": "38.21",
+      "MarketCap": "$1.5B",
+      "IPOyear": "2016",
+      "Sector": "Technology",
+      "industry": "Semiconductors",
+      "Summary Quote": "https://www.nasdaq.com/symbol/acia",
+      "FIELD9": ""
+   },
+   "ACTG": {
+      "Name": "Acacia Research Corporation",
+      "LastSale": "3.6",
+      "MarketCap": "$182.18M",
+      "IPOyear": "n/a",
+      "Sector": "Miscellaneous",
+      "industry": "Multi-Sector Companies",
+      "Summary Quote": "https://www.nasdaq.com/symbol/actg",
+      "FIELD9": ""
+   },
+   "ACHC": {
+      "Name": "Acadia Healthcare Company, Inc.",
+      "LastSale": "34.24",
+      "MarketCap": "$3.01B",
+      "IPOyear": "n/a",
+      "Sector": "Health Care",
+      "industry": "Medical Specialities",
+      "Summary Quote": "https://www.nasdaq.com/symbol/achc",
+      "FIELD9": ""
+   },
+   "ACAD": {
+      "Name": "ACADIA Pharmaceuticals Inc.",
+      "LastSale": "29.505",
+      "MarketCap": "$3.66B",
+      "IPOyear": "2004",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/acad",
+      "FIELD9": ""
+   },
+   "ACST": {
+      "Name": "Acasti Pharma, Inc.",
+      "LastSale": "1.07",
+      "MarketCap": "$27.4M",
+      "IPOyear": "n/a",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/acst",
+      "FIELD9": ""
+   },
+   "AXDX": {
+      "Name": "Accelerate Diagnostics, Inc.",
+      "LastSale": "22.9",
+      "MarketCap": "$1.27B",
+      "IPOyear": "n/a",
+      "Sector": "Capital Goods",
+      "industry": "Biotechnology: Laboratory Analytical Instruments",
+      "Summary Quote": "https://www.nasdaq.com/symbol/axdx",
+      "FIELD9": ""
+   },
+   "XLRN": {
+      "Name": "Acceleron Pharma Inc.",
+      "LastSale": "41.47",
+      "MarketCap": "$1.88B",
+      "IPOyear": "2013",
+      "Sector": "Health Care",
+      "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+      "Summary Quote": "https://www.nasdaq.com/symbol/xlrn",
+      "FIELD9": ""
+   },
+   "ANCX": {
+      "Name": "Access National Corporation",
+      "LastSale": "28.43",
+      "MarketCap": "$583.79M",
+      "IPOyear": "n/a",
+      "Sector": "Finance",
+      "industry": "Savings Institutions",
+      "Summary Quote": "https://www.nasdaq.com/symbol/ancx",
+      "FIELD9": ""
+   },
+   "ARAY": {
+      "Name": "Accuray Incorporated",
+      "LastSale": "5.1",
+      "MarketCap": "$435M",
+      "IPOyear": "2007",
+      "Sector": "Health Care",
+      "industry": "Medical/Dental Instruments",
+      "Summary Quote": "https://www.nasdaq.com/symbol/aray",
+      "FIELD9": ""
+   },
+   "ACRX": {
+      "Name": "AcelRx Pharmaceuticals, Inc.",
+      "LastSale": "1.725",
+      "MarketCap": "$86.83M",
+      "IPOyear": "2011",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/acrx",
+      "FIELD9": ""
+   },
+   "ACER": {
+      "Name": "Acer Therapeutics Inc.",
+      "LastSale": "17.2",
+      "MarketCap": "$128.96M",
+      "IPOyear": "n/a",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/acer",
+      "FIELD9": ""
+   },
+   "ACERW": {
+      "Name": "Acer Therapeutics Inc.",
+      "LastSale": "0.01",
+      "MarketCap": "n/a",
+      "IPOyear": "n/a",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/acerw",
+      "FIELD9": ""
+   },
+   "ACET": {
+      "Name": "Aceto Corporation",
+      "LastSale": "7.14",
+      "MarketCap": "$219.64M",
+      "IPOyear": "n/a",
+      "Sector": "Health Care",
+      "industry": "Other Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/acet",
+      "FIELD9": ""
+   },
+   "AKAO": {
+      "Name": "Achaogen, Inc.",
+      "LastSale": "10.98",
+      "MarketCap": "$465.48M",
+      "IPOyear": "2014",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/akao",
+      "FIELD9": ""
+   },
+   "ACHV": {
+      "Name": "Achieve Life Sciences, Inc. ",
+      "LastSale": "1.4",
+      "MarketCap": "$16.73M",
+      "IPOyear": "n/a",
+      "Sector": "Health Care",
+      "industry": "Biotechnology: In Vitro & In Vivo Diagnostic Substances",
+      "Summary Quote": "https://www.nasdaq.com/symbol/achv",
+      "FIELD9": ""
+   },
+   "ACHN": {
+      "Name": "Achillion Pharmaceuticals, Inc.",
+      "LastSale": "2.98",
+      "MarketCap": "$410.82M",
+      "IPOyear": "2006",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/achn",
+      "FIELD9": ""
+   },
+   "ACIW": {
+      "Name": "ACI Worldwide, Inc.",
+      "LastSale": "21.67",
+      "MarketCap": "$2.57B",
+      "IPOyear": "n/a",
+      "Sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "Summary Quote": "https://www.nasdaq.com/symbol/aciw",
+      "FIELD9": ""
+   },
+   "ACRS": {
+      "Name": "Aclaris Therapeutics, Inc.",
+      "LastSale": "19.48",
+      "MarketCap": "$600.66M",
+      "IPOyear": "2015",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/acrs",
+      "FIELD9": ""
+   },
+   "ACMR": {
+      "Name": "ACM Research, Inc.",
+      "LastSale": "6.52",
+      "MarketCap": "$100.05M",
+      "IPOyear": "2017",
+      "Sector": "Technology",
+      "industry": "Industrial Machinery/Components",
+      "Summary Quote": "https://www.nasdaq.com/symbol/acmr",
+      "FIELD9": ""
+   },
+   "ACNB": {
+      "Name": "ACNB Corporation",
+      "LastSale": "27.7",
+      "MarketCap": "$194.44M",
+      "IPOyear": "n/a",
+      "Sector": "Finance",
+      "industry": "Major Banks",
+      "Summary Quote": "https://www.nasdaq.com/symbol/acnb",
+      "FIELD9": ""
+   },
+   "ACOR": {
+      "Name": "Acorda Therapeutics, Inc.",
+      "LastSale": "24.95",
+      "MarketCap": "$1.17B",
+      "IPOyear": "2006",
+      "Sector": "Health Care",
+      "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+      "Summary Quote": "https://www.nasdaq.com/symbol/acor",
+      "FIELD9": ""
+   },
+   "SQZZ": {
+      "Name": "Active Alts Contrarian ETF",
+      "LastSale": "24.925",
+      "MarketCap": "$623174.85",
+      "IPOyear": "n/a",
+      "Sector": "n/a",
+      "industry": "n/a",
+      "Summary Quote": "https://www.nasdaq.com/symbol/sqzz",
+      "FIELD9": ""
+   },
+   "ATVI": {
+      "Name": "Activision Blizzard, Inc",
+      "LastSale": "68.03",
+      "MarketCap": "$51.44B",
+      "IPOyear": "n/a",
+      "Sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "Summary Quote": "https://www.nasdaq.com/symbol/atvi",
+      "FIELD9": ""
+   },
+   "ACXM": {
+      "Name": "Acxiom Corporation",
+      "LastSale": "27",
+      "MarketCap": "$2.14B",
+      "IPOyear": "n/a",
+      "Sector": "Technology",
+      "industry": "EDP Services",
+      "Summary Quote": "https://www.nasdaq.com/symbol/acxm",
+      "FIELD9": ""
+   },
+   "ADMS": {
+      "Name": "Adamas Pharmaceuticals, Inc.",
+      "LastSale": "33.86",
+      "MarketCap": "$771.29M",
+      "IPOyear": "2014",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/adms",
+      "FIELD9": ""
+   },
+   "ADMP": {
+      "Name": "Adamis Pharmaceuticals Corporation",
+      "LastSale": "3.6",
+      "MarketCap": "$120.19M",
+      "IPOyear": "n/a",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/admp",
+      "FIELD9": ""
+   },
+   "ADAP": {
+      "Name": "Adaptimmune Therapeutics plc",
+      "LastSale": "7.98",
+      "MarketCap": "$747.62M",
+      "IPOyear": "2015",
+      "Sector": "Health Care",
+      "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+      "Summary Quote": "https://www.nasdaq.com/symbol/adap",
+      "FIELD9": ""
+   },
+   "ADUS": {
+      "Name": "Addus HomeCare Corporation",
+      "LastSale": "38.35",
+      "MarketCap": "$446.07M",
+      "IPOyear": "2009",
+      "Sector": "Health Care",
+      "industry": "Medical/Nursing Services",
+      "Summary Quote": "https://www.nasdaq.com/symbol/adus",
+      "FIELD9": ""
+   },
+   "AEY": {
+      "Name": "ADDvantage Technologies Group, Inc.",
+      "LastSale": "1.3485",
+      "MarketCap": "$13.79M",
+      "IPOyear": "n/a",
+      "Sector": "Consumer Services",
+      "industry": "Office Equipment/Supplies/Services",
+      "Summary Quote": "https://www.nasdaq.com/symbol/aey",
+      "FIELD9": ""
+   },
+   "IOTS": {
+      "Name": "Adesto Technologies Corporation",
+      "LastSale": "6.65",
+      "MarketCap": "$140.57M",
+      "IPOyear": "2015",
+      "Sector": "Technology",
+      "industry": "Semiconductors",
+      "Summary Quote": "https://www.nasdaq.com/symbol/iots",
+      "FIELD9": ""
+   },
+   "ADMA": {
+      "Name": "ADMA Biologics Inc",
+      "LastSale": "3.95",
+      "MarketCap": "$179M",
+      "IPOyear": "n/a",
+      "Sector": "Health Care",
+      "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+      "Summary Quote": "https://www.nasdaq.com/symbol/adma",
+      "FIELD9": ""
+   },
+   "ADBE": {
+      "Name": "Adobe Systems Incorporated",
+      "LastSale": "193.48",
+      "MarketCap": "$95.11B",
+      "IPOyear": "1986",
+      "Sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "Summary Quote": "https://www.nasdaq.com/symbol/adbe",
+      "FIELD9": ""
+   },
+   "ADOM": {
+      "Name": "ADOMANI, Inc.",
+      "LastSale": "1.45",
+      "MarketCap": "$104.02M",
+      "IPOyear": "2017",
+      "Sector": "Capital Goods",
+      "industry": "Auto Parts:O.E.M.",
+      "Summary Quote": "https://www.nasdaq.com/symbol/adom",
+      "FIELD9": ""
+   },
+   "ADTN": {
+      "Name": "ADTRAN, Inc.",
+      "LastSale": "16.4",
+      "MarketCap": "$789.65M",
+      "IPOyear": "1994",
+      "Sector": "Public Utilities",
+      "industry": "Telecommunications Equipment",
+      "Summary Quote": "https://www.nasdaq.com/symbol/adtn",
+      "FIELD9": ""
+   },
+   "ADRO": {
+      "Name": "Aduro Biotech, Inc.",
+      "LastSale": "6.2",
+      "MarketCap": "$479.28M",
+      "IPOyear": "2015",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/adro",
+      "FIELD9": ""
+   },
+   "ADES": {
+      "Name": "Advanced Emissions Solutions, Inc.",
+      "LastSale": "8.26",
+      "MarketCap": "$174.2M",
+      "IPOyear": "n/a",
+      "Sector": "Basic Industries",
+      "industry": "Major Chemicals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/ades",
+      "FIELD9": ""
+   },
+   "AEIS": {
+      "Name": "Advanced Energy Industries, Inc.",
+      "LastSale": "64.36",
+      "MarketCap": "$2.55B",
+      "IPOyear": "1995",
+      "Sector": "Capital Goods",
+      "industry": "Industrial Machinery/Components",
+      "Summary Quote": "https://www.nasdaq.com/symbol/aeis",
+      "FIELD9": ""
+   },
+   "AMD": {
+      "Name": "Advanced Micro Devices, Inc.",
+      "LastSale": "11.78",
+      "MarketCap": "$11.37B",
+      "IPOyear": "n/a",
+      "Sector": "Technology",
+      "industry": "Semiconductors",
+      "Summary Quote": "https://www.nasdaq.com/symbol/amd",
+      "FIELD9": ""
+   },
+   "ADXS": {
+      "Name": "Advaxis, Inc.",
+      "LastSale": "2.76",
+      "MarketCap": "$116.7M",
+      "IPOyear": "n/a",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/adxs",
+      "FIELD9": ""
+   },
+   "ADXSW": {
+      "Name": "Advaxis, Inc.",
+      "LastSale": "0.71",
+      "MarketCap": "n/a",
+      "IPOyear": "n/a",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/adxsw",
+      "FIELD9": ""
+   },
+   "ADVM": {
+      "Name": "Adverum Biotechnologies, Inc.",
+      "LastSale": "6.9",
+      "MarketCap": "$357.13M",
+      "IPOyear": "2014",
+      "Sector": "Health Care",
+      "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+      "Summary Quote": "https://www.nasdaq.com/symbol/advm",
+      "FIELD9": ""
+   },
+   "ACT": {
+      "Name": "AdvisorShares Vice ETF",
+      "LastSale": "25.137",
+      "MarketCap": "$15.08M",
+      "IPOyear": "n/a",
+      "Sector": "n/a",
+      "industry": "n/a",
+      "Summary Quote": "https://www.nasdaq.com/symbol/act",
+      "FIELD9": ""
+   },
+   "AEGN": {
+      "Name": "Aegion Corp",
+      "LastSale": "23.76",
+      "MarketCap": "$772.84M",
+      "IPOyear": "n/a",
+      "Sector": "Basic Industries",
+      "industry": "Water Supply",
+      "Summary Quote": "https://www.nasdaq.com/symbol/aegn",
+      "FIELD9": ""
+   },
+   "AGLE": {
+      "Name": "Aeglea BioTherapeutics, Inc.",
+      "LastSale": "5.97",
+      "MarketCap": "$99.37M",
+      "IPOyear": "2016",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/agle",
+      "FIELD9": ""
+   },
+   "AEHR": {
+      "Name": "Aehr Test Systems",
+      "LastSale": "2.35",
+      "MarketCap": "$51.23M",
+      "IPOyear": "1997",
+      "Sector": "Capital Goods",
+      "industry": "Electrical Products",
+      "Summary Quote": "https://www.nasdaq.com/symbol/aehr",
+      "FIELD9": ""
+   },
+   "AMTX": {
+      "Name": "Aemetis, Inc",
+      "LastSale": "0.519",
+      "MarketCap": "$10.29M",
+      "IPOyear": "n/a",
+      "Sector": "Basic Industries",
+      "industry": "Major Chemicals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/amtx",
+      "FIELD9": ""
+   },
+   "AERI": {
+      "Name": "Aerie Pharmaceuticals, Inc.",
+      "LastSale": "54.15",
+      "MarketCap": "$2.12B",
+      "IPOyear": "2013",
+      "Sector": "Health Care",
+      "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+      "Summary Quote": "https://www.nasdaq.com/symbol/aeri",
+      "FIELD9": ""
+   },
+   "AVAV": {
+      "Name": "AeroVironment, Inc.",
+      "LastSale": "48.94",
+      "MarketCap": "$1.17B",
+      "IPOyear": "2007",
+      "Sector": "Capital Goods",
+      "industry": "Aerospace",
+      "Summary Quote": "https://www.nasdaq.com/symbol/avav",
+      "FIELD9": ""
+   },
+   "AEZS": {
+      "Name": "AEterna Zentaris Inc.",
+      "LastSale": "1.89",
+      "MarketCap": "$31.07M",
+      "IPOyear": "n/a",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/aezs",
+      "FIELD9": ""
+   },
+   "AEMD": {
+      "Name": "Aethlon Medical, Inc.",
+      "LastSale": "1.6325",
+      "MarketCap": "$27.07M",
+      "IPOyear": "n/a",
+      "Sector": "Capital Goods",
+      "industry": "Biotechnology: Laboratory Analytical Instruments",
+      "Summary Quote": "https://www.nasdaq.com/symbol/aemd",
+      "FIELD9": ""
+   },
+   "GNMX": {
+      "Name": "Aevi Genomic Medicine, Inc.",
+      "LastSale": "2.27",
+      "MarketCap": "$134.68M",
+      "IPOyear": "n/a",
+      "Sector": "Health Care",
+      "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+      "Summary Quote": "https://www.nasdaq.com/symbol/gnmx",
+      "FIELD9": ""
+   },
+   "AFMD": {
+      "Name": "Affimed N.V.",
+      "LastSale": "2.05",
+      "MarketCap": "$91.58M",
+      "IPOyear": "2014",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/afmd",
+      "FIELD9": ""
+   },
+   "AGEN": {
+      "Name": "Agenus Inc.",
+      "LastSale": "3.76",
+      "MarketCap": "$376.69M",
+      "IPOyear": "2000",
+      "Sector": "Health Care",
+      "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+      "Summary Quote": "https://www.nasdaq.com/symbol/agen",
+      "FIELD9": ""
+   },
+   "AGRX": {
+      "Name": "Agile Therapeutics, Inc.",
+      "LastSale": "3.44",
+      "MarketCap": "$117.6M",
+      "IPOyear": "2014",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/agrx",
+      "FIELD9": ""
+   },
+   "AGYS": {
+      "Name": "Agilysys, Inc.",
+      "LastSale": "11.43",
+      "MarketCap": "$266.47M",
+      "IPOyear": "n/a",
+      "Sector": "Technology",
+      "industry": "EDP Services",
+      "Summary Quote": "https://www.nasdaq.com/symbol/agys",
+      "FIELD9": ""
+   },
+   "AGIO": {
+      "Name": "Agios Pharmaceuticals, Inc.",
+      "LastSale": "76.53",
+      "MarketCap": "$4.26B",
+      "IPOyear": "2013",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/agio",
+      "FIELD9": ""
+   },
+   "AGNC": {
+      "Name": "AGNC Investment Corp.",
+      "LastSale": "18.94",
+      "MarketCap": "$7.41B",
+      "IPOyear": "2008",
+      "Sector": "Consumer Services",
+      "industry": "Real Estate Investment Trusts",
+      "Summary Quote": "https://www.nasdaq.com/symbol/agnc",
+      "FIELD9": ""
+   },
+   "AGNCB": {
+      "Name": "AGNC Investment Corp.",
+      "LastSale": "25.6179",
+      "MarketCap": "$8.88B",
+      "IPOyear": "n/a",
+      "Sector": "Consumer Services",
+      "industry": "Real Estate Investment Trusts",
+      "Summary Quote": "https://www.nasdaq.com/symbol/agncb",
+      "FIELD9": ""
+   },
+   "AGNCN": {
+      "Name": "AGNC Investment Corp.",
+      "LastSale": "25.3",
+      "MarketCap": "n/a",
+      "IPOyear": "n/a",
+      "Sector": "Consumer Services",
+      "industry": "Real Estate Investment Trusts",
+      "Summary Quote": "https://www.nasdaq.com/symbol/agncn",
+      "FIELD9": ""
+   },
+   "AGFS": {
+      "Name": "AgroFresh Solutions, Inc.",
+      "LastSale": "7.58",
+      "MarketCap": "$381.56M",
+      "IPOyear": "2014",
+      "Sector": "Finance",
+      "industry": "Business Services",
+      "Summary Quote": "https://www.nasdaq.com/symbol/agfs",
+      "FIELD9": ""
+   },
+   "AGFSW": {
+      "Name": "AgroFresh Solutions, Inc.",
+      "LastSale": "0.5",
+      "MarketCap": "n/a",
+      "IPOyear": "2014",
+      "Sector": "Finance",
+      "industry": "Business Services",
+      "Summary Quote": "https://www.nasdaq.com/symbol/agfsw",
+      "FIELD9": ""
+   },
+   "ALRN": {
+      "Name": "Aileron Therapeutics, Inc.",
+      "LastSale": "8.3",
+      "MarketCap": "$122.17M",
+      "IPOyear": "2017",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/alrn",
+      "FIELD9": ""
+   },
+   "AIMT": {
+      "Name": "Aimmune Therapeutics, Inc.",
+      "LastSale": "37.84",
+      "MarketCap": "$1.94B",
+      "IPOyear": "2015",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/aimt",
+      "FIELD9": ""
+   },
+   "AIRT": {
+      "Name": "Air T, Inc.",
+      "LastSale": "27",
+      "MarketCap": "$55.16M",
+      "IPOyear": "n/a",
+      "Sector": "Transportation",
+      "industry": "Air Freight/Delivery Services",
+      "Summary Quote": "https://www.nasdaq.com/symbol/airt",
+      "FIELD9": ""
+   },
+   "ATSG": {
+      "Name": "Air Transport Services Group, Inc",
+      "LastSale": "24.41",
+      "MarketCap": "$1.44B",
+      "IPOyear": "n/a",
+      "Sector": "Transportation",
+      "industry": "Air Freight/Delivery Services",
+      "Summary Quote": "https://www.nasdaq.com/symbol/atsg",
+      "FIELD9": ""
+   },
+   "AIRG": {
+      "Name": "Airgain, Inc.",
+      "LastSale": "9.5",
+      "MarketCap": "$91M",
+      "IPOyear": "2016",
+      "Sector": "Technology",
+      "industry": "Radio And Television Broadcasting And Communications Equipment",
+      "Summary Quote": "https://www.nasdaq.com/symbol/airg",
+      "FIELD9": ""
+   },
+   "AMCN": {
+      "Name": "AirMedia Group Inc",
+      "LastSale": "1.04",
+      "MarketCap": "$65.33M",
+      "IPOyear": "2007",
+      "Sector": "Technology",
+      "industry": "Advertising",
+      "Summary Quote": "https://www.nasdaq.com/symbol/amcn",
+      "FIELD9": ""
+   },
+   "AKAM": {
+      "Name": "Akamai Technologies, Inc.",
+      "LastSale": "64.49",
+      "MarketCap": "$10.96B",
+      "IPOyear": "1999",
+      "Sector": "Miscellaneous",
+      "industry": "Business Services",
+      "Summary Quote": "https://www.nasdaq.com/symbol/akam",
+      "FIELD9": ""
+   },
+   "AKTX": {
+      "Name": "Akari Therapeutics Plc",
+      "LastSale": "2.41",
+      "MarketCap": "$36.77M",
+      "IPOyear": "n/a",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/aktx",
+      "FIELD9": ""
+   },
+   "AKCA": {
+      "Name": "Akcea Therapeutics, Inc.",
+      "LastSale": "22.6",
+      "MarketCap": "$1.5B",
+      "IPOyear": "2017",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/akca",
+      "FIELD9": ""
+   },
+   "AKBA": {
+      "Name": "Akebia Therapeutics, Inc.",
+      "LastSale": "14.47",
+      "MarketCap": "$683.98M",
+      "IPOyear": "2014",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/akba",
+      "FIELD9": ""
+   },
+   "AKER": {
+      "Name": "Akers Biosciences Inc",
+      "LastSale": "0.3877",
+      "MarketCap": "$12.18M",
+      "IPOyear": "2014",
+      "Sector": "Health Care",
+      "industry": "Biotechnology: In Vitro & In Vivo Diagnostic Substances",
+      "Summary Quote": "https://www.nasdaq.com/symbol/aker",
+      "FIELD9": ""
+   },
+   "AKRX": {
+      "Name": "Akorn, Inc.",
+      "LastSale": "31.33",
+      "MarketCap": "$3.92B",
+      "IPOyear": "n/a",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/akrx",
+      "FIELD9": ""
+   },
+   "AKTS": {
+      "Name": "Akoustis Technologies, Inc.",
+      "LastSale": "5.89",
+      "MarketCap": "$129.63M",
+      "IPOyear": "n/a",
+      "Sector": "Public Utilities",
+      "industry": "Telecommunications Equipment",
+      "Summary Quote": "https://www.nasdaq.com/symbol/akts",
+      "FIELD9": ""
+   },
+   "ALRM": {
+      "Name": "Alarm.com Holdings, Inc.",
+      "LastSale": "36.81",
+      "MarketCap": "$1.74B",
+      "IPOyear": "2015",
+      "Sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "Summary Quote": "https://www.nasdaq.com/symbol/alrm",
+      "FIELD9": ""
+   },
+   "ALSK": {
+      "Name": "Alaska Communications Systems Group, Inc.",
+      "LastSale": "2.16",
+      "MarketCap": "$226.57M",
+      "IPOyear": "1999",
+      "Sector": "Public Utilities",
+      "industry": "Telecommunications Equipment",
+      "Summary Quote": "https://www.nasdaq.com/symbol/alsk",
+      "FIELD9": ""
+   },
+   "ALBO": {
+      "Name": "Albireo Pharma, Inc.",
+      "LastSale": "36.03",
+      "MarketCap": "$402.27M",
+      "IPOyear": "n/a",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/albo",
+      "FIELD9": ""
+   },
+   "ABDC": {
+      "Name": "Alcentra Capital Corp.",
+      "LastSale": "7.585",
+      "MarketCap": "$108.05M",
+      "IPOyear": "n/a",
+      "Sector": "n/a",
+      "industry": "n/a",
+      "Summary Quote": "https://www.nasdaq.com/symbol/abdc",
+      "FIELD9": ""
+   },
+   "ALDR": {
+      "Name": "Alder BioPharmaceuticals, Inc.",
+      "LastSale": "13.3",
+      "MarketCap": "$902.32M",
+      "IPOyear": "2014",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/aldr",
+      "FIELD9": ""
+   },
+   "ALDX": {
+      "Name": "Aldeyra Therapeutics, Inc.",
+      "LastSale": "7",
+      "MarketCap": "$133.82M",
+      "IPOyear": "2014",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/aldx",
+      "FIELD9": ""
+   },
+   "ALXN": {
+      "Name": "Alexion Pharmaceuticals, Inc.",
+      "LastSale": "113.97",
+      "MarketCap": "$25.27B",
+      "IPOyear": "1996",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/alxn",
+      "FIELD9": ""
+   },
+   "ALCO": {
+      "Name": "Alico, Inc.",
+      "LastSale": "27.65",
+      "MarketCap": "$228.09M",
+      "IPOyear": "n/a",
+      "Sector": "Consumer Non-Durables",
+      "industry": "Farming/Seeds/Milling",
+      "Summary Quote": "https://www.nasdaq.com/symbol/alco",
+      "FIELD9": ""
+   },
+   "ALGN": {
+      "Name": "Align Technology, Inc.",
+      "LastSale": "233.73",
+      "MarketCap": "$18.74B",
+      "IPOyear": "2001",
+      "Sector": "Health Care",
+      "industry": "Industrial Specialties",
+      "Summary Quote": "https://www.nasdaq.com/symbol/algn",
+      "FIELD9": ""
+   },
+   "ALIM": {
+      "Name": "Alimera Sciences, Inc.",
+      "LastSale": "1.1",
+      "MarketCap": "$76.06M",
+      "IPOyear": "2010",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/alim",
+      "FIELD9": ""
+   },
+   "ALJJ": {
+      "Name": "ALJ Regional Holdings, Inc.",
+      "LastSale": "3.06",
+      "MarketCap": "$115.12M",
+      "IPOyear": "n/a",
+      "Sector": "Miscellaneous",
+      "industry": "Business Services",
+      "Summary Quote": "https://www.nasdaq.com/symbol/aljj",
+      "FIELD9": ""
+   },
+   "ALKS": {
+      "Name": "Alkermes plc",
+      "LastSale": "54.69",
+      "MarketCap": "$8.41B",
+      "IPOyear": "1991",
+      "Sector": "Health Care",
+      "industry": "Major Pharmaceuticals",
+      "Summary Quote": "https://www.nasdaq.com/symbol/alks",
+      "FIELD9": ""
+   }
+   }
+]

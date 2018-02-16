@@ -1,0 +1,28 @@
+{
+  "name": "mean-nasdaq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephshea/MeanNasdaq.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephshea/MeanNasdaq/issues"
+  },
+  "homepage": "https://github.com/stephshea/MeanNasdaq#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.0.2",
+    "mongoose": "^5.0.6"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.1"
+  }
+}
