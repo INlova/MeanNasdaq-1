@@ -1,0 +1,202 @@
+[
+ {
+   "Symbol": "PIH",
+   "Name": "1347 Property Insurance Holdings, Inc.",
+   "LastSale": " $7.10 ",
+   "MarketCap": " $42.49M ",
+   "IPOyear": "2014",
+   "Sector": "Finance",
+   "industry": "Property-Casualty Insurers",
+   "StockUrl": "https://www.nasdaq.com/symbol/pih"
+ },
+ {
+   "Symbol": "TURN",
+   "Name": "180 Degree Capital Corp.",
+   "LastSale": " $1.80 ",
+   "MarketCap": " $56.02M ",
+   "IPOyear": "n/a",
+   "Sector": "Finance",
+   "industry": "Finance/Investors Services",
+   "StockUrl": "https://www.nasdaq.com/symbol/turn"
+ },
+ {
+   "Symbol": "FLWS",
+   "Name": "1-800 FLOWERS.COM, Inc.",
+   "LastSale": " $10.85 ",
+   "MarketCap": " $700.23M ",
+   "IPOyear": "1999",
+   "Sector": "Consumer Services",
+   "industry": "Other Specialty Stores",
+   "StockUrl": "https://www.nasdaq.com/symbol/flws"
+ },
+ {
+   "Symbol": "FCCY",
+   "Name": "1st Constitution Bancorp (NJ)",
+   "LastSale": " $19.25 ",
+   "MarketCap": " $155.6M ",
+   "IPOyear": "n/a",
+   "Sector": "Finance",
+   "industry": "Savings Institutions",
+   "StockUrl": "https://www.nasdaq.com/symbol/fccy"
+ },
+ {
+   "Symbol": "SRCE",
+   "Name": "1st Source Corporation",
+   "LastSale": " $49.59 ",
+   "MarketCap": " $1.29B ",
+   "IPOyear": "n/a",
+   "Sector": "Finance",
+   "industry": "Major Banks",
+   "StockUrl": "https://www.nasdaq.com/symbol/srce"
+ },
+ {
+   "Symbol": "VNET",
+   "Name": "21Vianet Group, Inc.",
+   "LastSale": " $7.87 ",
+   "MarketCap": " $878.69M ",
+   "IPOyear": "2011",
+   "Sector": "Technology",
+   "industry": "Computer Software: Programming, Data Processing",
+   "StockUrl": "https://www.nasdaq.com/symbol/vnet"
+ },
+ {
+   "Symbol": "TWOU",
+   "Name": "2U, Inc.",
+   "LastSale": " $72.66 ",
+   "MarketCap": " $3.79B ",
+   "IPOyear": "2014",
+   "Sector": "Technology",
+   "industry": "Computer Software: Prepackaged Software",
+   "StockUrl": "https://www.nasdaq.com/symbol/twou"
+ },
+ {
+   "Symbol": "JOBS",
+   "Name": "51job, Inc.",
+   "LastSale": " $64.09 ",
+   "MarketCap": " $3.96B ",
+   "IPOyear": "2004",
+   "Sector": "Technology",
+   "industry": "Diversified Commercial Services",
+   "StockUrl": "https://www.nasdaq.com/symbol/jobs"
+ },
+ {
+   "Symbol": "CAFD",
+   "Name": "8point3 Energy Partners LP",
+   "LastSale": " $12.26 ",
+   "MarketCap": " $969.63M ",
+   "IPOyear": "2015",
+   "Sector": "Public Utilities",
+   "industry": "Electric Utilities: Central",
+   "StockUrl": "https://www.nasdaq.com/symbol/cafd"
+ },
+ {
+   "Symbol": "EGHT",
+   "Name": "8x8 Inc",
+   "LastSale": " $17.75 ",
+   "MarketCap": " $1.64B ",
+   "IPOyear": "n/a",
+   "Sector": "Public Utilities",
+   "industry": "Telecommunications Equipment",
+   "StockUrl": "https://www.nasdaq.com/symbol/eght"
+ },
+ {
+   "Symbol": "AVHI",
+   "Name": "A V Homes, Inc.",
+   "LastSale": " $15.75 ",
+   "MarketCap": " $353.68M ",
+   "IPOyear": "n/a",
+   "Sector": "Capital Goods",
+   "industry": "Homebuilding",
+   "StockUrl": "https://www.nasdaq.com/symbol/avhi"
+ },
+ {
+   "Symbol": "SHLM",
+   "Name": "A. Schulman, Inc.",
+   "LastSale": " $37.15 ",
+   "MarketCap": " $1.1B ",
+   "IPOyear": "1972",
+   "Sector": "Basic Industries",
+   "industry": "Major Chemicals",
+   "StockUrl": "https://www.nasdaq.com/symbol/shlm"
+ },
+ {
+   "Symbol": "AAON",
+   "Name": "AAON, Inc.",
+   "LastSale": " $33.90 ",
+   "MarketCap": " $1.78B ",
+   "IPOyear": "n/a",
+   "Sector": "Capital Goods",
+   "industry": "Industrial Machinery/Components",
+   "StockUrl": "https://www.nasdaq.com/symbol/aaon"
+ },
+ {
+   "Symbol": "ABAX",
+   "Name": "ABAXIS, Inc.",
+   "LastSale": " $65.51 ",
+   "MarketCap": " $1.49B ",
+   "IPOyear": "1992",
+   "Sector": "Capital Goods",
+   "industry": "Industrial Machinery/Components",
+   "StockUrl": "https://www.nasdaq.com/symbol/abax"
+ },
+ {
+   "Symbol": "ABEO",
+   "Name": "Abeona Therapeutics Inc.",
+   "LastSale": " $11.90 ",
+   "MarketCap": " $556.63M ",
+   "IPOyear": "n/a",
+   "Sector": "Health Care",
+   "industry": "Major Pharmaceuticals",
+   "StockUrl": "https://www.nasdaq.com/symbol/abeo"
+ },
+ {
+   "Symbol": "ABEOW",
+   "Name": "Abeona Therapeutics Inc.",
+   "LastSale": " $7.20 ",
+   "MarketCap": " n/a ",
+   "IPOyear": "n/a",
+   "Sector": "Health Care",
+   "industry": "Major Pharmaceuticals",
+   "StockUrl": "https://www.nasdaq.com/symbol/abeow"
+ },
+ {
+   "Symbol": "ABIL",
+   "Name": "Ability Inc.",
+   "LastSale": " $0.38 ",
+   "MarketCap": " $9.81M ",
+   "IPOyear": "2014",
+   "Sector": "Finance",
+   "industry": "Business Services",
+   "StockUrl": "https://www.nasdaq.com/symbol/abil"
+ },
+ {
+   "Symbol": "ABMD",
+   "Name": "ABIOMED, Inc.",
+   "LastSale": " $233.99 ",
+   "MarketCap": " $10.36B ",
+   "IPOyear": "n/a",
+   "Sector": "Health Care",
+   "industry": "Medical/Dental Instruments",
+   "StockUrl": "https://www.nasdaq.com/symbol/abmd"
+ },
+ {
+   "Symbol": "ABLX",
+   "Name": "Ablynx NV",
+   "LastSale": " $53.99 ",
+   "MarketCap": " $4.05B ",
+   "IPOyear": "2017",
+   "Sector": "Health Care",
+   "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+   "StockUrl": "https://www.nasdaq.com/symbol/ablx"
+ },
+ {
+   "Symbol": "AXAS",
+   "Name": "Abraxas Petroleum Corporation",
+   "LastSale": " $2.13 ",
+   "MarketCap": " $353.35M ",
+   "IPOyear": "n/a",
+   "Sector": "Energy",
+   "industry": "Oil & Gas Production",
+   "StockUrl": "https://www.nasdaq.com/symbol/axas"
+ }
+]

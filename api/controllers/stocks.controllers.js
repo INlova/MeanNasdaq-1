@@ -1,13 +1,11 @@
-// var dbconn = require('../data/dbconnection.js');
-// var ObjectId = require('mongodb').ObjectID;
-var stockData = require('..data/nasdaq1Data.json');
+var mongoose = require('mongoose');
+var Stock = mongoose.model('Stock')
+
 //native driver
 
 module.exports.stocksGetAll = function(req, res) {
-    console.log("GET the stocks");
-    console.log(req.query);
+
     
-    var returnData;
     var offset = 0;
     var count = 5;
     // var maxCount = 50;
@@ -26,6 +24,24 @@ module.exports.stocksGetAll = function(req, res) {
         count = parseInt(req.query.count, 10);
         //because queries come in a string, have to use parseInt
     } 
+    
+    Stock   
+        .find()
+        .exec(function(err, stocks) {
+            console.log("found stocks", stocks.length);
+            res 
+                .json(stocks);
+        })
+        
+    // collection
+    //     .find()
+    //     .toArray(function(err, docs) {
+    // console.log("Found stocks", docs);
+    // res 
+    //     .status(200)
+    //     .json(docs);        
+    //     });
+    
     
 //     if (isNaN(offset) || isNaN(count)) {
 //         res
@@ -47,13 +63,13 @@ module.exports.stocksGetAll = function(req, res) {
 //     }
     
     
-    returnData = stockData.slice(offset, offset + count);
+//     returnData = stockData.slice(offset, offset + count);
     
-    res
-      .status(200)
-      .json( returnData );
+//     res
+//       .status(200)
+//       .json( returnData );
       
-} 
+ } 
       
 module.exports.stocksGetOne = function(req, res) {
     var stockId = req.params.Symbol;
