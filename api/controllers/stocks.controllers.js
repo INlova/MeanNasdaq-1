@@ -1,12 +1,13 @@
 // var dbconn = require('../data/dbconnection.js');
 // var ObjectId = require('mongodb').ObjectID;
-var stockData = require('../data/nasdaq1-data.json');
+var stockData = require('..data/nasdaq1Data.json');
 //native driver
 
 module.exports.stocksGetAll = function(req, res) {
     console.log("GET the stocks");
     console.log(req.query);
     
+    var returnData;
     var offset = 0;
     var count = 5;
     // var maxCount = 50;
@@ -46,7 +47,7 @@ module.exports.stocksGetAll = function(req, res) {
 //     }
     
     
-    var returnData = stockData.slice(offset, offset + count);
+    returnData = stockData.slice(offset, offset + count);
     
     res
       .status(200)
@@ -55,8 +56,10 @@ module.exports.stocksGetAll = function(req, res) {
 } 
       
 module.exports.stocksGetOne = function(req, res) {
-    var stockId = reg.params.stockId;
-    var thisStock = stockData(stockId);
+    var stockId = req.params.Symbol;
+    var thisStock = stockData(Symbol);
+    //should Symbol be stockId?
+    
     console.log("GET one stock");
     res
       .status(200) 
