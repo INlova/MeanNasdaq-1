@@ -1,19 +1,11 @@
 var mongoose = require('mongoose');
 var Stock = mongoose.model('Stock')
 
-//native driver
-
 module.exports.stocksGetAll = function(req, res) {
 
-    
     var offset = 0;
-    var count = 5;
-    // var maxCount = 50;
-    
-    //     if (req.query && req.query.lat && req.query.lng) {
-//         runGeoQuery(req, res);
-//         return;
-//     }
+    var count = 10;
+    var maxCount = 50;
     
     if(req.query && req.query.offset){
         offset = parseInt(req.query.offset, 10);
@@ -24,234 +16,82 @@ module.exports.stocksGetAll = function(req, res) {
         count = parseInt(req.query.count, 10);
         //because queries come in a string, have to use parseInt
     } 
+        if (isNaN(offset) || isNaN(count)) {
+        res
+        .status(400)
+        .json( {
+            "message" : "if supplied in querystring, count and offset should be numbers"
+            
+        });
+        return;
+    }
+    
+    if (count > maxCount) {
+        res
+            .status(400)
+            .json({
+                "message" : "Count limit of " + maxCount + " exceeded"
+            });
+            return;
+    }
     
     Stock   
         .find()
+        .skip(offset)
+        .limit(count)
         .exec(function(err, stocks) {
+            if(err) {
+            console.log("Error finding stocks");
+            res
+                .status(500)
+                .json(err);
+            } else {
             console.log("found stocks", stocks.length);
             res 
                 .json(stocks);
-        })
-        
-    // collection
-    //     .find()
-    //     .toArray(function(err, docs) {
-    // console.log("Found stocks", docs);
-    // res 
-    //     .status(200)
-    //     .json(docs);        
-    //     });
-    
-    
-//     if (isNaN(offset) || isNaN(count)) {
-//         res
-//         .status(400)
-//         .json( {
-//             "message" : "if supplied in querystring, count and offset should be numbers"
-            
-//         });
-//         return;
-//     }
-    
-//     if (count > maxCount) {
-//         res
-//             .status(400)
-//             .json({
-//                 "message" : "Count limit of " + maxCount + " exceeded"
-//             });
-//             return;
-//     }
-    
-    
-//     returnData = stockData.slice(offset, offset + count);
-    
-//     res
-//       .status(200)
-//       .json( returnData );
-      
- } 
+            }
+        });
+      };
       
 module.exports.stocksGetOne = function(req, res) {
-    var stockId = req.params.Symbol;
-    var thisStock = stockData(Symbol);
-    //should Symbol be stockId?
-    
-    console.log("GET one stock");
-    res
-      .status(200) 
-      .json( stockData );      
+    var stockId = req.params.stockId;
+    // var thisStock = stockData(stockId);
+    //can stockId be symbol?
+    console.log("GET stockId", stockId);
 
-}
-// var mongoose = require('mongoose');
-// var Hotel = mongoose.model('Stock');
-
-// var runGeoQuery = function(req, res) {
-    
-//         var lng = parseFloat(req.query.lng);
-//         var lat = parseFloat(req.query.lat);
-        
-//         if (isNaN(lng) || isNaN(lat)) {
-//         res
-//         .status(400)
-//         .json( {
-//             "message" : "if supplied in querystring, lng and lat must both be number"
-            
-//         });
-//         return;
-//     }
-        
-//         //A geoJson point
-//         var point = {
-//             type: "Point",
-//             coordinates: [lng, lat]
-//         };
-        
-//         // var geoOptions = {
-//         //   spherical: true,
-//         //   maxDistance :  2000,
-//         //   //meters
-//         //   num : 5
-//         //   //num of records
-//         // };
-             
-//       Hotel
-//       .aggregate([
-//       { 
-//             "$geoNear": {
-//                 "near": point,
-//                 "distanceField": "distance",
-//                  "maxDistance": 2000,
-//                  "spherical": true,
-//                  "num": 5 
-//             }
-//               }
-// ],
-//             //geoNear(point, geoOptions, function(error, results, stats) {
-//              function(error, results, stats) {
-//              console.log('Geo results', results);
-//             //   console.log('Geo stats', stats);
-//               if(error) {
-//                   console.log("error finding hotels");
-//                   res
-//                   .status(500)
-//                   .json(error)
-//               } else {
-                 
-//               res
-//                 .status(200)
-//                 .json(results);
+    Stock
+        .findById(stockId)
+        .exec(function(err, doc) {
+             var response = {
+                status : 200,
+                message: doc
+            };
+            if(err) {
+            console.log("Error finding stock");
+            response.status = 500;
+            response.message = err;
                 
-//               }
-//             });
-//     };
-
-// module.exports.stocksGetAll = function(req, res) {
-//     // var db = dbconn.get();
-//     // var collection = db.collection('hotels');
-//     console.log('GET the stocks');
-//     console.log(req.query);
-    
-//     var offset = 0;
-//     var count = 5;
-//     var maxCount = 50;
-    
-//     if (req.query && req.query.lat && req.query.lng) {
-//         runGeoQuery(req, res);
-//         return;
-//     }
-    
-//     if(req.query && req.query.offset){
-//         offset = parseInt(req.query.offset, 10);
-//         //because queries come in a string, have to use parseInt
-//     }
-    
-//     if(req.query && req.query.count){
-//         count = parseInt(req.query.count, 10);
-//         //because queries come in a string, have to use parseInt
-//     } 
-    
-//     if (isNaN(offset) || isNaN(count)) {
-//         res
-//         .status(400)
-//         .json( {
-//             "message" : "if supplied in querystring, count and offset should be numbers"
+            } else if(!doc) {
+                response.status = 404;
+                response.message = {
+                        "message" : "Stock ID not found"
+                };
+            }     
             
-//         });
-//         return;
-//     }
-    
-//     if (count > maxCount) {
-//         res
-//             .status(400)
-//             .json({
-//                 "message" : "Count limit of " + maxCount + " exceeded"
-//             });
-//             return;
-//     }
-    
-//     Hotel
-//     .find()
-//     .skip(offset)
-//     .limit(count)
-//     .exec(function(error, hotels){
-//         if(error) {
-//             console.log("Error finding hotels");
-//             res
-//                 .status(500)
-//                 .json(error);
-//         } else {
-            
-//       console.log("Found hotels", hotels.length);
-//       res
-//         .json(hotels);
-//         }
-//     });
-    
-//     // collection
-//     //     .find()
-//     //     .skip(offset)
-//     //     .limit(count)
-//     //     .toArray(function(err, docs){
-//     //   console.log("Found hotels", docs.length);
-//     // response
-//     //     .status(200)
-//     //     .json(docs);   
-//     // });
-    
-// };      
-
-// module.exports.hotelsGetOne = function(request, res) {
-//     // var db = dbconn.get();
-//     // var collection = db.collection('hotels');
-    
-//     var hotelId = request.params.hotelId;
-//     console.log('GET hotelId', hotelId);
-//     //var thisHotel = hotelData[hotelId];
-
-//     Hotel
-//         .findById(hotelId)
-//         .exec(function(error, doc) {
-//             var response = {
-//                 status : 200,
-//                 message: doc
-//             };
-//             if(error) {
-//             console.log("Error finding hotel");
-//             response.status = 500;
-//             response.message = error;
-                
-//             } else if(!doc) {
-//                 response.status = 404;
-//                 response.message = {
-//                         "message" : "Hotel ID not found"
-//                 };
-//             }            
-//             res
-//                 .status(response.status)
-//                 .json(response.message);
-            
-//         });
-// };  
+            // if (response.status !==200) {
+            //     res
+            //         .status(response.status)
+            //         .json(response.message);
+            // } else {
+            // res
+            //     .status(200)
+            //     .json(doc);
+            res
+                .status(response.status)
+                .json(response.message);
+        });
+};
+     
 
 // //if array has more than one item, split it array, space at ; if no items. return empty array
 // var _splitArray = function(input) {
@@ -264,115 +104,45 @@ module.exports.stocksGetOne = function(req, res) {
 //     return output;
 //     };
 
+module.exports.stocksUpdateOne= function(req, res) {
+    //probably not needed for comments and not updating stock info
+    var stockId = req.params.stockId;
+    // var thisStock = stockData(stockId);
+    //can stockId be symbol?
+    console.log("GET stockId", stockId);
 
-// module.exports.hotelsAddOne = function(req, res) {
-//     console.log("POST new hotel");
-//     Hotel
-//         .create({
-//             name: req.body.name,
-//             description: req.body.description,
-//             stars: parseInt(req.body.stars, 10),
-//             services: _splitArray(req.body.services),
-//             photos: _splitArray(req.body.photos),
-//             currency: req.body.currency,
-//             location: {
-//                 address: req.body.address,
-//                 coordinates: [
-//                     parseFloat(req.body.lng), parseFloat(req.body.lat)]
-//             }
-     
-//         }, function(error, hotel) {
-//           if(error) {
-//               console.log("Error creating hotel");
-//               res
-//                 .status(400)
-//                 .json(error)
-//           }  else {
-//               console.log("Hotel created", hotel);
-//               res  
-//                 .status(201)
-//                 .json(hotel);
-//           }
-//         });
-// };
-
-// module.exports.hotelsUpdateOne = function(req, res) {
-    
-//     var hotelId = req.params.hotelId;
-//     console.log('GET hotelId', hotelId);
-//     //var thisHotel = hotelData[hotelId];
-
-//     Hotel
-//         .findById(hotelId)
-//         .select("-reviews -rooms")
-//         .exec(function(error, doc) {
-//             var response = {
-//                 status : 200,
-//                 message: doc
-//             };
-//             if(error) {
-//             console.log("Error finding hotel");
-//             response.status = 500;
-//             response.message = error;
+    Stock
+        .findById(stockId)
+        .select(-reviews)
+        //excluding subdocuments
+        
+        .exec(function(err, doc) {
+             var response = {
+                status : 200,
+                message: doc
+            };
+            if(err) {
+            console.log("Error finding stock");
+            response.status = 500;
+            response.message = err;
                 
-//             } else if(!doc) {
-//                 response.status = 404;
-//                 response.message = {
-//                         "message" : "Hotel ID not found"
-//                 };
-//             }     
-//             if (response.status !==200) {
-//                 res
-//                     .status(response.status)
-//                     .json(response.message);
-//             } else {
-//                 doc.name = req.body.name; 
-//                 doc.description = req.body.description;
-//                 doc.stars = parseInt(req.body.stars, 10);
-//                 doc.services = _splitArray(req.body.services);
-//                 doc.photos = _splitArray(req.body.photos);
-//                 doc.currency = req.body.currency;
-//                 doc.location = {
-//                     address : req.body.address,
-//                     coordinates : 
-//                     [parseFloat(req.body.lng), parseFloat(req.body.lat)]
-                    
-//                 };
-                
-//                 doc
-//                 .save(function(err, hotelUpdated) {
-//                     if(err) {
-//                         res
-//                         .status(500)
-//                         .json(err);
-//                     } else {
-//                         res
-//                         .status(204)
-//                         .json();
-                        
-//                     }
-                    
-//                 });
-//             }
-//             });
+            } else if(!doc) {
+                response.status = 404;
+                response.message = {
+                        "message" : "Stock ID not found"
+                };
+            }     
             
-//         };
+            if (response.status !==200) {
+                res
+                    .status(response.status)
+                    .json(response.message);
+            } else {
+            //if wanted to edit stocks would include all fields of object    
+            res
+                .status(200)
+                .json(doc);
+            }
+        });
+};
 
-// module.exports.hotelsDeleteOne = function(req, res) {
-//     var hotelId = req.params.hotelId;
-    
-//     Hotel
-//         .findByIdAndRemove(hotelId)
-//         .exec(function(err, hotel) {
-//           if(err) {
-//               res
-//                 .status(404)
-//                 .json(err)
-//           } else {
-//               console.log("Hotel deleted, id:", hotelId);
-//               res
-//                 .status(204)
-//                 .json();
-//           }
-//         });
-// };

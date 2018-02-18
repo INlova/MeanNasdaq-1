@@ -2,19 +2,12 @@ var express = require('express');
 var router = express.Router();
 
 var ctrlStocks = require('../controllers/stocks.controllers.js');
-// var ctrlReviews = require('../controllers/reviews.controllers.js');
+var ctrlComments = require('../controllers/comments.controllers.js');
 // var ctrlUsers = require('../controllers/users.controllers.js');
 
 router
   .route('/stocks')
   .get(ctrlStocks.stocksGetAll);
-  
-  // .post(function(req, res) {
-  //   console.log("POST the json");
-  //   res
-  //     .status(200)
-  //     .json( {"jsonData" : 'Post received'} );
-  // });
 
 // router
 //   .route('/hotels')
@@ -23,23 +16,23 @@ router
     
 router
     .route('/stocks/:stockId')
-    //creating a url route for data
-    .get(ctrlStocks.stocksGetOne);
-//     .put(ctrlHotels.hotelsUpdateOne)
-//     .delete(ctrlHotels.hotelsDeleteOne);
+    .get(ctrlStocks.stocksGetOne)
+    .put(ctrlStocks.stocksUpdateOne);
+    //patch updates just one
 
-// //Review routes
-// router
-//   .route('/hotels/:hotelId/reviews')
-//   .get(ctrlReviews.reviewsGetAll)
-// //must be logged in to post reviews
-//   .post(ctrlUsers.authenticate, ctrlReviews.reviewsAddOne);
+// Comment routes
+router
+  .route('/stocks/:stockId/comments')
+  .get(ctrlComments.commentsGetAll)
+//must be logged in to post reviews
+  .post(ctrlComments.commentsAddOne);
+  // .post(ctrlUsers.authenticate, ctrlReviews.reviewsAddOne);
   
-// router
-//     .route('/hotels/:hotelId/reviews/:reviewId')
-//     //creating a url route for data
-//     .get(ctrlReviews.reviewsGetOne)
-//     .put(ctrlReviews.reviewsUpdateOne)
+router
+    .route('/hotels/:hotelId/stocks/:commentId')
+    //creating a url route for data
+    .get(ctrlComments.commentsGetOne)
+    .put(ctrlComments.commentsUpdateOne);
 //     .delete(ctrlReviews.reviewsDeleteOne);
     
 //     //Authentication
