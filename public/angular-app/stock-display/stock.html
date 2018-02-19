@@ -1,0 +1,23 @@
+<h1>Selected company: { vm.stock.Name }}</h1>
+<h2>{{ vm.stock.Symbol }}</h2>
+
+<h2>Sector: {{ vm.stock.Sector }}</h2>
+
+<h3>Comments</h3>
+
+<ul>
+  <li ng-repeat="comment in vm.stock.comments"> <strong>{{ comment.name }} says:</strong> {{ comment.comment }}</li>
+</ul>
+
+
+<div ng-if="vm.isLoggedIn()">
+  <form name="vm.commentForm" ng-submit="vm.addComment()">
+   
+    Your comment: <textarea name="comment" required ng-model="vm.comment"></textarea>
+    <div ng-show="vm.commentForm.comment.$dirty && vm.isSubmitted">
+      <p>Please add a comment</p>
+    </div>
+
+    <button type="submit" class="btn">Add comment</button>
+  </form>
+</div>
