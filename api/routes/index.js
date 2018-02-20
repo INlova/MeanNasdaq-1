@@ -20,11 +20,11 @@ router
   .route('/stocks/:stockId/comments')
   .get(ctrlComments.commentsGetAll)
 //must be logged in to post comments
-  .post(ctrlComments.commentsAddOne);
+  .post(ctrlUsers.authenticate, ctrlComments.commentsAddOne);
   // .post(ctrlUsers.authenticate, ctrlComments.commentsAddOne);
   
 router
-    .route('/stocks/:stockId/stocks/:commentId')
+    .route('/stocks/:stockId/comments/:commentId')
     //creating a url route for data
     .get(ctrlComments.commentsGetOne)
     .put(ctrlComments.commentsUpdateOne);

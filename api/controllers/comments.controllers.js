@@ -81,7 +81,7 @@ var _addComment = function(req, res, stock) {
         //sending the comment object
         // name: req.body.name,
         // rating: parseInt(req.body.rating, 10),
-        comment: req.body.comments
+        comment: req.body.comment
     });
     
     stock.save(function(err, stockUpdated) {
@@ -113,9 +113,10 @@ module.exports.commentsAddOne = function(req, res) {
         .exec(function(err, doc) {
             //doc returns here
             var response = {
-                status: 201,
-                message: doc,
-                //message: []
+                status: 200,
+                // status: 201;
+                // message: doc,
+                message: []
             };
             if (err) {
                 console.log("Error finding stock");

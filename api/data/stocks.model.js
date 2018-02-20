@@ -1,8 +1,8 @@
 var mongoose = require('mongoose');
 
 var stockSchema = new mongoose.Schema({
-   symbol: String,
-   name: String,
+   Symbol: String,
+   Name: String,
    LastSale: Number,
    sector: String,
    StockUrl: String,

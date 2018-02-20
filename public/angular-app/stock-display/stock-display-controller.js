@@ -26,7 +26,7 @@ vm.addReview = function() {
         name: username,
         comment: vm.comment
     };
-    if (vm.comentForm.$valid) {
+    if (vm.commentForm.$valid) {
         stockDataFactory.postComment(id, postData).then(function(response) {
             console.log(response.status);
             if(response.status === 201) {
