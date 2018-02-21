@@ -20,7 +20,7 @@ router
   .route('/stocks/:stockId/comments')
   .get(ctrlComments.commentsGetAll)
 //must be logged in to post comments
-  .post(ctrlUsers.authenticate, ctrlComments.commentsAddOne);
+  .post(ctrlComments.commentsAddOne);
   // .post(ctrlUsers.authenticate, ctrlComments.commentsAddOne);
   
 router

@@ -23,7 +23,7 @@ vm.addReview = function() {
     var username = token.username;
     
     var postData = {
-        name: username,
+        // name: username,
         comment: vm.comment
     };
     if (vm.commentForm.$valid) {

@@ -1,26 +1,18 @@
 var mongoose = require('mongoose');
 
-var stockSchema = new mongoose.Schema({
-   Symbol: String,
-   Name: String,
-   LastSale: Number,
-   sector: String,
-   StockUrl: String,
-});
-
 var commentSchema = new mongoose.Schema({
-     name : {
-        type: String,
-        required: true
-    },
+    //  name : {
+    //     type: String,
+    //     required: true
+    // },
     // rating: {
     //     type: Number,
     //     min: 0,
     //     max: 5,
     //     required: true
     // },
-    comments: {
-        type: [String],
+    comment: {
+        type: String,
         required: true
     },
     
@@ -29,6 +21,21 @@ var commentSchema = new mongoose.Schema({
         "default": Date.now
    }
     });
+    
+var stockSchema = new mongoose.Schema({
+   Symbol:{
+       type: String,
+       required: true},
+   Name: {
+       type: String,
+       required: true},
+   LastSale: String,
+   sector: String,
+   StockUrl: String,
+  Comments: [commentSchema]
+});
+
+
     
 // var roomSchema= new mongoose.Schema({
 //         type: String,

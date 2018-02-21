@@ -113,7 +113,7 @@ module.exports.commentsAddOne = function(req, res) {
         .exec(function(err, doc) {
             //doc returns here
             var response = {
-                status: 200,
+                status: 201,
                 // status: 201;
                 // message: doc,
                 message: []
@@ -139,64 +139,64 @@ module.exports.commentsAddOne = function(req, res) {
         });
 };
 
-// module.exports.reviewsUpdateOne = function(req, res) {
+module.exports.commentsUpdateOne = function(req, res) {
     
-//     var hotelId = req.params.hotelId;
-//     var reviewId = req.params.reviewId;
-//     console.log('PUT reviewId ' + reviewId + ' for hotelId ' + hotelId);
+    var stockId = req.params.stockId;
+    var commentId = req.params.commentId;
+    console.log('PUT reviewId ' + commentId + ' for stockId ' + stockId);
     
-//     Hotel
-//         .findById(hotelId)
-//         .select("reviews")
-//         .exec(function(err, hotel) {
-//             var thisReview = {
-//                 status : 200,
-//                 message: {}
-//             };
-//             if (err) {
-//         console.log("Error finding hotel");
-//         response.status = 500;
-//         response.message = err;
-//       } else if(!hotel) {
-//         console.log("Hotel id not found in database", id);
-//         response.status = 404;
-//         response.message = {
-//           "message" : "Hotel ID not found " + id
-//         };
-//       } else {
-//         // Get the review
-//         this.review = hotel.reviews.id(reviewId);
-//         // If the review doesn't exist Mongoose returns null
-//         if (!thisReview) {
-//           response.status = 404;
-//           response.message = {
-//             "message" : "Review ID not found " + reviewId
-//           };
-//         }
-//       }
-//       if (response.status !== 200) {
-//         res
-//           .status(response.status)
-//           .json(response.message);
-//       } else {
-//         thisReview.name = req.body.name;
-//         thisReview.rating = parseInt(req.body.rating, 10);
-//         thisReview.review = req.body.review;
-//         hotel.save(function(err, hotelUpdated) {
-//           if (err) {
-//             res
-//               .status(500)
-//               .json(err);
-//           } else {
-//             res
-//               .status(204)
-//               .json();
-//           }
-//         });
-//       }
-//     });
+    Stock
+        .findById(stockId)
+        .select("comments")
+        .exec(function(err, stock) {
+            var thisReview = {
+                status : 200,
+                message: {}
+            };
+            if (err) {
+        console.log("Error finding stock");
+        response.status = 500;
+        response.message = err;
+      } else if(!stock) {
+        console.log("stock id not found in database", id);
+        response.status = 404;
+        response.message = {
+          "message" : "stock ID not found " + id
+        };
+      } else {
+        // Get the comment
+        this.comment = stock.comments.id(commentId);
+        // If the review doesn't exist Mongoose returns null
+        if (!thisComment) {
+          response.status = 404;
+          response.message = {
+            "message" : "Comment ID not found " + commentId
+          };
+        }
+      }
+      if (response.status !== 200) {
+        res
+          .status(response.status)
+          .json(response.message);
+      } else {
+        thisComment.name = req.body.name;
+        thisComment.rating = parseInt(req.body.rating, 10);
+        thisComment.comment = req.body.comment;
+        stock.save(function(err, stockUpdated) {
+          if (err) {
+            res
+              .status(500)
+              .json(err);
+          } else {
+            res
+              .status(204)
+              .json();
+          }
+        });
+      }
+    });
 
-// };
+};
 
 // // module.exports.reviewsDeleteOne = function(req, res) {
 // //     var hotelId = req.params.hotelId;
@@ -254,6 +254,3 @@ module.exports.commentsAddOne = function(req, res) {
 // //     });
 
 // };
-module.exports.commentsUpdateOne= function(req, res) {
-    
-};

@@ -104,7 +104,7 @@ module.exports.stocksUpdateOne= function(req, res) {
 
     Stock
         .findById(stockId)
-        .select(-reviews)
+        .select("-comments")
         //excluding subdocuments
         
         .exec(function(err, doc) {

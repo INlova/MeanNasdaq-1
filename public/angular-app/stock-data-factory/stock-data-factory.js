@@ -14,7 +14,7 @@ function stockDataFactory($http) {
         return $http.get('/api/stocks/' + id).then(complete).catch(failed);
     }
     
-    function postComment() {
+    function postComment(id, comment) {
         return $http.post('/api/stocks/' + id + '/comments', comment).then(complete).catch(failed);
     }
     
