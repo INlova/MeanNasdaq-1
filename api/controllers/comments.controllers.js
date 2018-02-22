@@ -85,7 +85,8 @@ var _addComment = function(req, res, stock) {
     });
     
     stock.save(function(err, stockUpdated) {
-        //save runs on model instance, in this case model is 'hotel'
+        //save runs on model instance, in this case model is 'stock'
+      console.log(stock.comments);
       if(err) {
           res
             .status(500)
@@ -113,7 +114,7 @@ module.exports.commentsAddOne = function(req, res) {
         .exec(function(err, doc) {
             //doc returns here
             var response = {
-                status: 201,
+                status: 200,
                 // status: 201;
                 // message: doc,
                 message: []
@@ -143,14 +144,14 @@ module.exports.commentsUpdateOne = function(req, res) {
     
     var stockId = req.params.stockId;
     var commentId = req.params.commentId;
-    console.log('PUT reviewId ' + commentId + ' for stockId ' + stockId);
+    console.log('PUT commentId ' + commentId + ' for stockId ' + stockId);
     
     Stock
         .findById(stockId)
         .select("comments")
         .exec(function(err, stock) {
             var thisReview = {
-                status : 200,
+                status : 201,
                 message: {}
             };
             if (err) {

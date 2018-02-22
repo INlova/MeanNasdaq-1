@@ -23,7 +23,6 @@ function config($httpProvider, $routeProvider) {
         .when('/stock/:id', {
               templateUrl: 'angular-app/stock-display/stock.html',
             controller: StockController,
-            //or StocksController
             controllerAs: 'vm',
             access: {
                 restricted: false

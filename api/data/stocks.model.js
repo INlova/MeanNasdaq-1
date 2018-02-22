@@ -11,7 +11,7 @@ var commentSchema = new mongoose.Schema({
     //     max: 5,
     //     required: true
     // },
-    comment: {
+    Comment: {
         type: String,
         required: true
     },

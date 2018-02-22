@@ -5,6 +5,7 @@ function StockController($route, $routeParams, $window, stockDataFactory, AuthFa
     // vm.title= 'MEAN Nasdaq App';
     var id = $routeParams.id;
     stockDataFactory.stockDisplay(id).then(function(response) {
+         console.log(response);
         vm.stock = response.data;
     });
 
