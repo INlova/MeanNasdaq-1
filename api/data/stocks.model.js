@@ -11,7 +11,7 @@ var commentSchema = new mongoose.Schema({
     //     max: 5,
     //     required: true
     // },
-    Comment: {
+    comment: {
         type: String,
         required: true
     },
@@ -32,7 +32,7 @@ var stockSchema = new mongoose.Schema({
    LastSale: String,
    sector: String,
    StockUrl: String,
-  Comments: [commentSchema]
+  comments: [commentSchema]
 });
 
 

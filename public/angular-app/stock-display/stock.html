@@ -5,17 +5,17 @@
 <h3>Comments</h3>
 
 <ul>
-  <li ng-repeat="Comment in vm.stock.Comments"> <strong>
+  <li ng-repeat="Comment in vm.stock.comments"> <strong>
     <!--{{ comment.username }} says:-->
     
-    </strong> {{ Comment.Comment }}</li>
+    </strong> {{ comment.comment }}</li>
 </ul>
 
 
 <div ng-if="vm.isLoggedIn()">
   <form name="vm.commentForm" ng-submit="vm.addComment()">
    
-    Your comment: <textarea name="comment" required ng-model="vm.Comment"></textarea>
+    Your comment: <textarea name="comment" required ng-model="vm.comment"></textarea>
     <div ng-show="vm.commentForm.Comment.$dirty && vm.isSubmitted">
       <p>Please add a comment</p>
     </div>

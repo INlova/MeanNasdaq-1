@@ -85,15 +85,15 @@ module.exports.stocksGetOne = function(req, res) {
      
 
 // //if array has more than one item, split it array, space at ; if no items. return empty array
-var _splitArray = function(input) {
-    var output;
-    if(input && input.length > 0) {
-        output = input.split(";");
-    } else {
-        output =[];
-    }
-    return output;
-    };
+// var _splitArray = function(input) {
+//     var output;
+//     if(input && input.length > 0) {
+//         output = input.split(";");
+//     } else {
+//         output =[];
+//     }
+//     return output;
+//     };
 
 module.exports.stocksUpdateOne= function(req, res) {
     //probably not needed for comments and not updating stock info
